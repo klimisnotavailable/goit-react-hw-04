@@ -41,6 +41,7 @@ function App() {
   const showError = () => toast.error('Enter something you want to see', toastSettings);
   
   const onSearch = (newSearch) => {
+    setImagesData([])
     setQuery(newSearch)
     setPage(1)
   };
